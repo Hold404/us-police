@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+a {text-decoration: none}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1398px;
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Header */
+
+.header {
+    width: 100%;
+    position: fixed;
+
+    background-color: #202020;
+    z-index: 1000;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    margin: 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.header-nav__links {
+    text-transform: uppercase;
+    display: flex;
+
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.header-nav__link {
+    color: #403f3f;
+    margin-right: 20px;
+
+    line-height: 40px;
+}
+
+.header-nav__link:hover {
+    color: #5b5b5b;
+    border-bottom: solid #5b5b5b 1px;
+}
+
+.header-nav__button {
+    line-height: 40px;
+
+    color: #212121;
+
+    border-color: #212121;
+    border-radius: 10px;
+    background-color: #5b5b5b;
+
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+/* Home (Page 1) */
+
+.home {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../images/bg-1.png');
+}
+
+.home__logo {
+    padding-top: 32.5%;
+
+    width: 100%;
+    text-align: center;
+}
+
+.home__scroll {
+    padding-top: 20%;
+
+    width: 100%;
+    text-align: center;
+}
+
+
+/* About (Page 2) */
+
+.about {
+    width: 100%;
+    height: 100vh;
+}
+
+.about__title {
+    text-align: center;
+
+    font-family: Bahnschrift;
+    font-weight: 600;
+    font-size: 45px;
+
+    text-transform: uppercase;
+
+    color: #1c212b;
+
+    margin-top: 18%;
+}
+
+.about__line {
+    max-width: 1165px;
+    height: 1px;
+
+    background-color: #5d5d5d;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 2.5%;
+}
+
+.about__text {
+    max-width: 1165px;
+    min-height: 150px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Bahnschrift;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #1c212b;
+
+    margin-top: 2.5%;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1165px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Join (Page 3) */
+.join {
+    max-width: 1200px;
+    height: 60vh;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join__title {
+    font-family: Bahnschrift;
+    font-weight: 600;
+    font-size: 45px;
+
+    text-transform: uppercase;
+
+    color: #1c212b;
+}
+
+.join-inner {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1165px;
+}
+
+.join-subtitle__block {
+    border-left: 2px solid #1c212b;
+
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.join__subtitle {
+    font-family: Bahnschrift;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #1c212b;
+
+    margin-top: 2.5%;
+}
+
+.join__link {
+    color: white;
+
+    font-family: Bahnschrift;
+    font-weight: 400;
+    font-size: 15px;
+
+    display: block;
+    margin-right: 20px;
+}
+
+.join__btns {
+    display: flex;
+
+    margin-top: 15px;
+}
+
+.joint__btn {
+    background-color: #272727;
+
+    border-color: #272727;
+    border-radius: 10px;
+
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+
+    padding: 5px 5px 5px 5px;
+
+    -moz-box-shadow:0 0 8px #272727;
+    -webkit-box-shadow:0 0 8px #272727;
+    box-shadow:0 0 8px #272727;
+}
+
+.joint__btn:hover {
+    -moz-box-shadow:0 0 11px #272727;
+    -webkit-box-shadow:0 0 11px #272727;
+    box-shadow:0 0 11px #272727;
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+
+    background-color: #212121;
+    z-index: 1000;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    margin: 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1165px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__copyright {
+    font-family: Bahnschrift;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: white;
+}
+
+.hold {color: white; text-decoration: white}
+
+
+/* Adaptive */
+
+@media (max-width: 1250px) {
+    .container {
+        max-width: 1100px;
+    }
+
+    #about__image__2 {
+        display: none;
+    }
+
+    #about__image__1 {
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {max-width: 768px;}
+
+    .home__logo {
+        padding-top: 45%;
+    }
+
+    .join-inner {
+        display: block;
+    }
+
+    .join-text {
+        padding-bottom: 50px;
+    }
+
+    .footer {
+        margin-top: 20%;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    .container {max-width: 570px;}
+
+    .home__logo {
+        padding-top: 65%;
+    }
+
+    .home__scroll {
+        display: none;
+    }
+
+    .about-images {
+        display: block;
+    }
+
+    .header-nav__link {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header-nav__links {
+        display: block;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    #about__image__1 {
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 610px) {
+    #about__image__1 {display: none}
+
+    .join-image__image {display: none}
+
+
+    .about {height: 60vh;}
+
+    .about__title {
+        text-align: left;
+    }
+
+    .join {
+        height: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .content {padding-top: 32%}
+
+    .home__logo {
+        padding-top: 80%;
+    }
+
+    .about {height: 90vh;}
+
+    .join {
+        height: auto;
+    }
+
+    .join__btns {
+        display: block;
+    }
+
+    .joint__btn {
+        margin-bottom: 10px;
+    }
+
+    .vk__link {
+        display: none;
+    }
+}
